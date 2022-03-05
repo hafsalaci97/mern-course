@@ -2,7 +2,7 @@
 function Header (props) {
 
     return (
-        <div style={props.style}>HELLO</div>
+        <div style={props.style}></div>
     );
 }
 

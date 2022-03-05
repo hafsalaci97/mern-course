@@ -2,7 +2,7 @@
 function SubContents (props) {
 
     return(
-        <div style={props.style}>SUB</div>
+        <div style={props.style}></div>
     );    
 }
 

@@ -2,7 +2,7 @@
 function Advertisement (props) {
 
     return (
-        <div style={props.style}>ADV</div>
+        <div style={props.style}></div>
     );
 }
 

@@ -2,7 +2,7 @@
 function Main (props) {
     
     return (
-        <div style={props.style}>MAIN
+        <div style={props.style}>
             {props.children}
         </div>
     );

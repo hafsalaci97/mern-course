@@ -21,9 +21,10 @@ const NavigationStyle = {
 const MainStyle = {
   backgroundColor: '#e06666',
   width: '69em',
-  height: '30em',
+  height: '28.5em',
   marginLeft: '1em',
-  marginTop: '1em'
+  marginTop: '1em',
+  paddingTop: '1.5em'
 }
 const SubcontentStyle = {
   width: '15em',
@@ -44,7 +45,7 @@ const AdvertisementStyle = {
         <Header style = {HeaderStyle}/>
         <div className="Nav-Main">
           <Navigation style = {NavigationStyle}/>
-          <div className="MainSection">
+          <div>
               <Main style = {MainStyle}>
                 <div className="SubCon">
                   <SubContents style = {SubcontentStyle}/>

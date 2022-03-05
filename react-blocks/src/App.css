@@ -10,9 +10,7 @@
   display: flex;
   margin-left: 2.5em;
 }
-.MainSection{
-  display: flex;
-}
+
 .SubCon{
   display: flex;
   justify-content: space-around;
