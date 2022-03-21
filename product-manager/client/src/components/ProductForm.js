@@ -2,8 +2,8 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import './ProductForm.css';
 
-const ProductForm = () =>{
-
+const ProductForm = (props) =>{
+    // const {products, setProducts} = props;
     const [form, setForm] = useState({
         productTitle: "",
         productPrice: "",
@@ -21,10 +21,13 @@ const ProductForm = () =>{
         e.preventDefault();
         console.log(form);
         axios.post('http://localhost:8000/api/products/create', form)
-            .then(res=>console.log(res))
+            .then(res=>{
+                console.log(res);
+                //needs res.data.results to update the list in real time
+                props.setProducts([...props.products, res.data.results]);
+            })
             .catch(err=>console.log(err));
     }
-
 
     return(
         <div className='Html-Style'>
