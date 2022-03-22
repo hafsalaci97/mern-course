@@ -3,7 +3,7 @@ import axios from 'axios';
 import './ProductForm.css';
 
 const ProductForm = (props) =>{
-    // const {products, setProducts} = props;
+    
     const [form, setForm] = useState({
         productTitle: "",
         productPrice: "",
