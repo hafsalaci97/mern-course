@@ -1,3 +1,6 @@
+//Code is all commented in order to not do different files. For each request that needs to be executed/tested, please uncomment it.
+
+
 //push front
 // let arr = ['test1', 'test2', 'test3', 'test4', 'test5'];
 // i = arr.length;
