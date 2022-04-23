@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: #dddddd;
+  height: 38.5em;
+  width: 85em;
+  margin-left: 8em;
+  padding-top: 1em;
+}
+.Nav-Main{
+  display: flex;
+  margin-left: 2.5em;
+}
+
+.SubCon{
+  display: flex;
+  justify-content: space-around;
+}
+
+

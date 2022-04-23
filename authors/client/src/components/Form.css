@@ -1,0 +1,32 @@
+h4{
+    color: #852ef7;
+}
+.Input-Div{
+    border: 1px solid black;
+    width: 25em;
+    height: 12em;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#input{
+    width: 20em;
+    height: 2em;
+    align-self: center;
+    margin-bottom: 2em;
+}
+.Btn-Form{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 8em;
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+    background-color: #66bbff;
+    color: white;
+    font-weight: bold;
+}

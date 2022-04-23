@@ -1,0 +1,19 @@
+.Btn{
+    margin: 0 5px 0 5px;
+    margin-top: 2em;
+    background-color: antiquewhite;
+}
+.Clicked-Btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.Content-Div{
+    width: 30em;
+    height: 10em;
+    background-color: none;
+    border: 2px solid gray;
+    margin-left: 32em;
+    margin-top: 2em;
+}

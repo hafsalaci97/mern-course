@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.Poke-List{
+  margin-left: 40em;
+}
+
+.Btn{
+  margin-left: 48em;
+  width: 10em;
+  margin-top: 2em;
+  border-radius: 5px;
+  color: white;
+  background-color: #666666;
+}
